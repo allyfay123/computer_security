@@ -2,10 +2,10 @@ import os.path #C:\\Users\\schmi\\Documents\\Computer Security\\Project1\\Projec
 import sys
 import math
 
-################################################################
+####################################################################
 ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ENGLISH_COMMON = "ETAOINSHRDLCUMWFGYPBVKJXQZ"
-################################################################
+####################################################################
 
 
 def main():
