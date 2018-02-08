@@ -10,11 +10,15 @@ def main():
             for x in line:
                 toDecode.append(x)
     #print(toDecode)
-    sum = 0	
-    for i in range(len(toDecode)):
-        if toDecode[i] == toDecode[i+4]
-            sum += 1
-    print("coincidents for x=4 is " + sum)
+    sum = 0
+    fourToTwenty = range(4,40)
+    print(len(toDecode))
+    for value in fourToTwenty:
+        for i in range(len(toDecode)-value):
+            if toDecode[i] == toDecode[i+value]:
+                sum += 1
+        print("coincidence for ", value, "is ", sum)
+        sum=0
 
 
 if __name__=="__main__":
